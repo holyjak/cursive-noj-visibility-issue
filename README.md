@@ -33,6 +33,7 @@ tablecloth/api/join_separate.clj
 tablecloth/api/dataset.clj
 ```
 
+In Calva there are no problems. (But it likely doesn't rely on static code analysis.)
 
 ## Attempt 1: Noj via user-wide lein profile
 
