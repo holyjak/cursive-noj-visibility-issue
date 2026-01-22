@@ -18,6 +18,21 @@ cat ~/.m2/repository/org/scicloj/noj/2-beta19.1/noj-2-beta19.1.pom
 
 ```
 
+The library itself looks fine as well:
+
+```
+unzip -l ~/.m2/repository/scicloj/tablecloth/7.042/tablecloth-7.042.jar 
+Name
+----
+META-INF/MANIFEST.MF
+META-INF/maven/scicloj/tablecloth/pom.xml
+META-INF/leiningen/scicloj/tablecloth/project.clj
+...
+tablecloth/api/
+tablecloth/api/join_separate.clj
+tablecloth/api/dataset.clj
+```
+
 
 ## Attempt 1: Noj via user-wide lein profile
 
